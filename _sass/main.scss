@@ -5,79 +5,29 @@
 html, body {
   margin: 0;
   height: 100%;
+  font-family: "Open Sans", "Segoe UI", Roboto, Arial, sans-serif;
 }
+
 body {
   min-height: 100%;
 }
 
-#toc {
-  background-color: magenta;
+footer {
+  background-color: #403f4c;
+  z-index: 999;
 }
 
-nav#mainNavigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: lightgrey;
-  height: 50px;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
 }
 
 pre {
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
-}
-
-footer {
-  background-color: green;
-}
-
-nav#mainNavigation>a {
-  display: inline-block;
-  padding: 8px;
-}
-
-nav#mainNavigation>a:hover {
-  background-color: red;
-}
-
-nav#mainNavigation>.dropdown {
-  padding: 8px;
-  display: none;
-}
-
-nav#mainNavigation>.dropdown a {
-  color: black;
-}
-
-nav#mainNavigation>a:hover+.dropdown,
-nav#mainNavigation>.dropdown:hover {
-  display: block;
-  display: grid;
-}
-
-nav#mainNavigation>.dropdown>.courseNav {
-  background-color: green;
-}
-
-nav#mainNavigation>.dropdown>.courseNav>.subjectNav {
-  background-color: blue;
-}
-
-nav#mainNavigation>.dropdown>.courseNav>a,
-nav#mainNavigation>.dropdown>.courseNav>.subjectNav>a {
-  display: block;
-}
-
-nav#mainNavigation>.dropdown>.courseNav,
-nav#mainNavigation>.dropdown>.courseNav>.subjectNav {
-    padding: 8px;
-    margin: 8px;
-}
-
-@media only screen and (min-width: 750px) {
-  nav#mainNavigation>.dropdown {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
