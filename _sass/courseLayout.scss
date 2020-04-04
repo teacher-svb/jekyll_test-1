@@ -1,0 +1,18 @@
+#content {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-areas: "courseNav chapterContent toc";
+    grid-gap: 20px;
+}
+
+#courseNavigation {
+    grid-area: courseNav;
+}
+
+#chapterContent {
+    grid-area: chapterContent;
+}
+
+#toc {
+    grid-area: toc;
+} 

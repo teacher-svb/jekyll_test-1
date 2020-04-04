@@ -105,43 +105,43 @@
         - name: SQL Database Connection
           link: "/courses/webontwikkeling/dynamische-websites/sql-database-connection"
 - name: Databanken
-  link: /courses/Databanken/
+  link: /courses/databanken/
   subjects:
     - name: "Database Ontwerp"
-      link: "/courses/Databanken/database-ontwerp"
+      link: "/courses/databanken/database-ontwerp"
       chapters:
         - name: Inleiding
-          link: "/courses/Databanken/database-ontwerp/inleiding"
+          link: "/courses/databanken/database-ontwerp/inleiding"
         - name: Désirée's Dessertenboek
-          link: "/courses/Databanken/database-ontwerp/voorbeeld"
+          link: "/courses/databanken/database-ontwerp/voorbeeld"
         - name: Fouten
-          link: "/courses/Databanken/database-ontwerp/fouten"
+          link: "/courses/databanken/database-ontwerp/fouten"
         - name: Tabellen
-          link: "/courses/Databanken/database-ontwerp/tabellen"
+          link: "/courses/databanken/database-ontwerp/tabellen"
         - name: Sleutels
-          link: "/courses/Databanken/database-ontwerp/sleutels"
+          link: "/courses/databanken/database-ontwerp/sleutels"
         - name: Multipliciteit
-          link: "/courses/Databanken/database-ontwerp/multipliciteit"
+          link: "/courses/databanken/database-ontwerp/multipliciteit"
         - name: Normalisatie
-          link: "/courses/Databanken/database-ontwerp/normalisatie"
+          link: "/courses/databanken/database-ontwerp/normalisatie"
     - name: "SQL"
-      link: "/courses/Databanken/sql"
+      link: "/courses/databanken/sql"
       chapters:
         - name: Inleiding
-          link: "/courses/Databanken/sql/inleiding"
+          link: "/courses/databanken/sql/inleiding"
         - name: Muziek Database
-          link: "/courses/Databanken/sql/muziek-database"
+          link: "/courses/databanken/sql/muziek-database"
         - name: Projecties
-          link: "/courses/Databanken/sql/projecties"
+          link: "/courses/databanken/sql/projecties"
         - name: Selecties
-          link: "/courses/Databanken/sql/selecties"
+          link: "/courses/databanken/sql/selecties"
         - name: Ordening
-          link: "/courses/Databanken/sql/ordening"
+          link: "/courses/databanken/sql/ordening"
         - name: Joins
-          link: "/courses/Databanken/sql/meerdere-tabellen"
+          link: "/courses/databanken/sql/meerdere-tabellen"
 #        - name: Statistische Informatie
-#          link: "/courses/Databanken/sql/statische-informatie"
+#          link: "/courses/databanken/sql/statische-informatie"
 #        - name: Subselects
-#          link: "/courses/Databanken/sql/subselects"
+#          link: "/courses/databanken/sql/subselects"
 #        - name: Inhoud Wijzigen
-#          link: "/courses/Databanken/sql/inhoud-wijzigen"
+#          link: "/courses/databanken/sql/inhoud-wijzigen"

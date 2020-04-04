@@ -6,14 +6,20 @@ collections:
 
 defaults:
   - scope:
-      type: "courses"
+      path: "_courses/programmeren"
     values:
+      course: "programmeren"
+      layout: "programmeren"
+  - scope:
+      path: "_courses/webontwikkeling"
+    values:
+      course: "webontwikkeling"
       layout: "course"
   - scope:
-      type: "courses"
+      path: "_courses/databanken"
     values:
+      course: "databanken"
       layout: "course"
-#      permalink: /:collection/:title:output_ext
   - scope:
       path: ""
     values:

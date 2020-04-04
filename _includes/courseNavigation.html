@@ -3,7 +3,7 @@
 {% assign urlCourse = urlSplit[2] %}
 
       {% for course in site.data.courses %}
-        {% if urlCourse == course.name %}
+        {% if page.course == course.name %}
 
           {% for subject in course.subjects %}
           
