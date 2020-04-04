@@ -1,0 +1,19 @@
+
+{% assign urlSplit = page.url | split: "/" %}
+{% assign urlCourse = urlSplit[2] %}
+
+      {% for course in site.data.courses %}
+        {% if urlCourse == course.name %}
+
+          {% for subject in course.subjects %}
+          
+          <div class="subjectNav">
+            <h2><a href="{{ subject.link }}">{{ subject.name }}</a></h2>
+            {% for chapter in subject.chapters %}
+            <a href="{{ chapter.link }}">{{ chapter.name }}</a>
+            {% endfor %}
+          </div>
+          {% endfor %}
+        {% endif %}
+
+    {% endfor %}

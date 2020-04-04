@@ -1,0 +1,19 @@
+
+  <a href="/">home</a>
+  <a href="/courses/">cursussen</a>
+  <div class="dropdown">
+    {% for course in site.data.courses %}
+    <div class="courseNav">
+      <h1><a href="{{ course.link }}">{{ course.name }}</a></h1>
+        {% for subject in course.subjects %}
+        
+        <div class="subjectNav">
+          <h2><a href="{{ subject.link }}">{{ subject.name }}</a></h2>
+          {% for chapter in subject.chapters %}
+          <a href="{{ chapter.link }}">{{ chapter.name }}</a>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>

@@ -1,18 +1,19 @@
 collections:
-  authors:
+  courses:
     output: true
+
+
 
 defaults:
   - scope:
-      path: ""
-      type: "authors"
+      type: "courses"
     values:
-      layout: "author"
+      layout: "course"
   - scope:
-      path: ""
-      type: "posts"
+      type: "courses"
     values:
-      layout: "post"
+      layout: "course"
+#      permalink: /:collection/:title:output_ext
   - scope:
       path: ""
     values:

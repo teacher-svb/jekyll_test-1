@@ -4,9 +4,17 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?skin=desert"></script>
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+      <nav id="mainNavigation">
+        {% include mainNavigation.html %}
+      </nav>
+      <section id="content">
+        {{ content }}
+      </section>
+      <footer>
+        the footer
+      </footer>
   </body>
 </html>

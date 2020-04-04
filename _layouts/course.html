@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+<nav id="courseNavigation">
+{% include courseNavigation.html %}
+</nav>
+
+<section id="chapterContent">
+    
+    <h1>{{ page.title }}</h1>
+
+    <div id="chapterTags">
+        {% for tag in page.tags %}
+            {{tag}}
+        {% endfor %}
+    </div>
+
+    {{ content }}
+
+</section>
+
+
+<section id="toc">
+    {% include toc.html html=content %}
+</section>
