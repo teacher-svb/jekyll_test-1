@@ -11,7 +11,6 @@ tags:
 description: 
 ---
 
-# Objecten
 
 ## Complex vs simpel
 

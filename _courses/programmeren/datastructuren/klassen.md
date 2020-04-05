@@ -10,7 +10,6 @@ tags:
 description:
 ---
 
-# Klassen
 
 ## Wat is een klasse?
 Een klasse is een groep variabelen en functies die bij elkaar horen waar je een naam aan geeft. Klassen zijn, nog veel meer dan functies, hèt middel bij uitstek om ons aan het DRY principe te houden. 

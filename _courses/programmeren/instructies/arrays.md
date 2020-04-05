@@ -6,7 +6,6 @@ tags:
 description: Lijsten gebruiken en aanpassen
 ---
 
-# ARRAYS
 ## Arrays
 
 Als je een lijst van waardes wilt opslaan (bv. Een lijst met merken van auto’s), zou dit er als volgt kunnen uitzien:

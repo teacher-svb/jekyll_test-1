@@ -11,7 +11,6 @@ tags:
 description: 
 ---
 
-# EXPRESSIES
 
 ## Expressie
 

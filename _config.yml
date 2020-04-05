@@ -1,3 +1,9 @@
+repo: "https://github.com/teacher-svb/cursus_webontwikkeling"
+github_user: "teacher-svb"
+github_repo: "cursus_webontwikkeling"
+
+
+
 collections:
   courses:
     output: true

@@ -1,18 +1,38 @@
+
+
 #content {
-    display: grid;
-    grid-template-columns: 200px auto 200px;
-    grid-template-areas: "courseNav chapterContent toc";
-    grid-gap: 20px;
+    padding-top: 50px;
 }
 
-#courseNavigation {
-    grid-area: courseNav;
+@media only screen and (min-width: 750px) {
+    #content {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-areas: "courseNav chapterContent toc";
+        grid-gap: 20px;
+        padding-top: 0;
+    }
+    
+    #courseNavigation {
+        grid-area: courseNav;
+    }
+    
+    #chapterContent {
+        grid-area: chapterContent;
+    }
+    
+    #toc {
+        grid-area: toc;
+    } 
 }
 
-#chapterContent {
-    grid-area: chapterContent;
-}
 
-#toc {
-    grid-area: toc;
-} 
+@media only screen and (min-width: 900px) {
+    #content {
+        display: grid;
+        grid-template-columns: 200px auto 200px;
+        grid-template-areas: "courseNav chapterContent toc";
+        grid-gap: 20px;
+        padding-top: 0;
+    }
+}

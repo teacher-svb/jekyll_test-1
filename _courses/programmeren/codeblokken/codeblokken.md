@@ -7,8 +7,6 @@ tags:
 description: Wat zijn codeblokken?
 ---
 
-# CODEBLOKKEN
-
 ## Codeblokken
 
 **Een codeblok is een lijst met instructies dat begint en eindigt met een bepaald teken**. Het begin en einde van een codeblok wordt aangeduid met **accolades**. 

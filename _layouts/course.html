@@ -9,7 +9,7 @@ layout: default
 
 <section id="chapterContent">
     
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title | upcase }}</h1>
 
     <div id="chapterTags">
         {% for tag in page.tags %}
@@ -22,6 +22,6 @@ layout: default
 </section>
 
 
-<section id="toc">
-    {% include toc.html html=content %}
+<section id="pageNavigation">
+    {% include pageNavigation.html %}
 </section>

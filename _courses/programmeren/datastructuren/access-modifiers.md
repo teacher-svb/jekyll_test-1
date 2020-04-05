@@ -11,7 +11,6 @@ tags:
 description: 
 ---
 
-# Access Modifiers
 
 ## Voorbeeld
 

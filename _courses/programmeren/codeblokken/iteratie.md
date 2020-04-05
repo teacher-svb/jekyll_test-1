@@ -9,7 +9,6 @@ tags:
 description: 
 ---
 
-# Iteratie
 
 ## Sequentie
 Alle code die tot nu toe werd behandeld heeft één ding gemeen: instructies worden één per één uitgevoerd, van boven naar onder, zonder uitzondering. Dit wordt ook wel een **sequentie** genoemd. 

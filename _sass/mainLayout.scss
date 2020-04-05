@@ -1,22 +1,38 @@
 
+ footer {
+  height: 100px;
+}
+  
+  
+@media only screen and (min-width: 750px) {
+  body {
+      display: grid;
+      grid-template-rows: 50px auto 100px;
+    
+      grid-template-areas: "navigation"
+                          "content"
+                          "footer";
+  }
 
-body {
-    display: grid;
-    grid-template-rows: 50px auto 100px;
-  
-    grid-template-areas: "navigation"
-                         "content"
-                         "footer";
-  }
-  
   nav#mainNavigation {
-    grid-area: navigation;
+      grid-area: navigation;
   }
-  
+
   section#content {
-    grid-area: content;
+      grid-area: content;
   }
-  
+
   footer {
-    grid-area: footer;
+      grid-area: footer;
   }
+
+}
+
+@media print
+{    
+    nav#mainNavigation,
+    footer
+    {
+        display: none !important;
+    }
+}

@@ -9,7 +9,6 @@ tags:
 description: Hoe maak je een variabele aan?
 ---
 
-# VARIABELEN
 
 ## Variabelen
 

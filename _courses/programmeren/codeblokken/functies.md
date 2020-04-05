@@ -10,7 +10,6 @@ tags:
 description: 
 ---
 
-# CODEBLOK: FUNCTIES
 
 ## Wat is een functie?
 

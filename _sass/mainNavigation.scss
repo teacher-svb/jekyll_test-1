@@ -9,83 +9,104 @@ nav#mainNavigation {
     height: 50px;
     
     z-index: 999;
+
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-nav#mainNavigation>a {
+nav#mainNavigation>.dropdownButton {
+    display: inline-block;
+    height: 100%;
+}
+
+nav#mainNavigation>a,
+nav#mainNavigation>.dropdownButton>a {
     display: inline-block;
     padding: 8px;
     color: #cbd8e3;
     font-weight: bold;
-    height: 100%;
+    height: 50px;
+    padding: 12px;
 }
 
-nav#mainNavigation>a:hover {
+nav#mainNavigation>a:hover,
+nav#mainNavigation>.dropdownButton:hover>a {
     color: #98b1c7;
-}
-
-nav#mainNavigation>.dropdown {
-    padding: 8px;
-    display: none;
     background-color: white;
 }
 
-nav#mainNavigation>.dropdown a {
+nav#mainNavigation>.dropdownButton>.dropdown {
+    padding: 8px;
+    display: none;
+    background-color: white;
+    border-bottom: 1px solid #dedede;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+    position: absolute;
+    left: 0; 
+    right: 0;
+}
+
+nav#mainNavigation>.dropdownButton>.dropdown a {
     color: black;
 }
 
-nav#mainNavigation>a:hover+.dropdown,
-nav#mainNavigation>.dropdown:hover {
+nav#mainNavigation>.dropdownButton:hover>.dropdown {
     display: block;
     display: grid;
 }
 
-nav#mainNavigation>.dropdown>.courseNav {
+nav#mainNavigation>.dropdownButton>.dropdown>.courseNav {
     border: 1px solid #dedede;
     background-color: #fafafa;
     position: relative;
     padding: 16px;
-    margin: 8px;
+    margin: 16px 8px;
 }
 
-nav#mainNavigation>.dropdown>.courseNav>h1 {
+nav#mainNavigation>.dropdownButton>.dropdown>.courseNav>h1 {
     position: absolute;
-    top: -16px;
+    top: -12px;
     left: 8px;
     font-size: 18px;
     font-weight: normal;
     margin: 0;
     background-color: #fafafa;
     padding: 0 4px;
+    border: 1px solid #dedede;
 }
   
-nav#mainNavigation>.dropdown>.courseNav>.subjectNav {
-    background-color: #fafafa;
-    position: relative;
-    margin: 16px 0;
-    padding: 8px;
-}
-  
-nav#mainNavigation>.dropdown>.courseNav>.subjectNav>h2 {
-    position: absolute;
-    top: -13px;
-    left: 0px;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-    background-color: #fafafa;
-}
-  
-nav#mainNavigation>.dropdown>.courseNav>a,
-nav#mainNavigation>.dropdown>.courseNav>.subjectNav>a {
+nav#mainNavigation>.dropdownButton>.dropdown>.courseNav>a {
     display: block;
 }
 
-nav#mainNavigation>.dropdown>.courseNav>.subjectNav>a:hover {
+
+
+#mainNavigation>.dropdownButton>.dropdown>.courseNav>.subjectNav h2>a:hover {
+    color: #3176d9;
+}
+
+#mainNavigation>.dropdownButton>.dropdown>.courseNav>.subjectNav a {
+    display: block;
+    font-size: 16px;
+    margin: 8px;
+}
+
+#mainNavigation>.dropdownButton>.dropdown>.courseNav>.subjectNav h2 {
+    font-weight: 500;
+    margin: 0;
+}
+
+#mainNavigation>.dropdownButton>.dropdown>.courseNav>.subjectNav>a {
+    margin-left: 16px;
+    color: #505050;
+}
+
+#mainNavigation>.dropdownButton>.dropdown>.courseNav>.subjectNav>a:hover {
     text-decoration: underline;
 }
   
 @media only screen and (min-width: 750px) {
-    nav#mainNavigation>.dropdown {
+    nav#mainNavigation>.dropdownButton>.dropdown {
       grid-template-columns: 1fr 1fr 1fr;
     }
 }

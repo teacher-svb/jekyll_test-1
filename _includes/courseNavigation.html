@@ -1,16 +1,13 @@
-
-{% assign urlSplit = page.url | split: "/" %}
-{% assign urlCourse = urlSplit[2] %}
-
+  <h1>{{ page.course | capitalize }}</h1>
       {% for course in site.data.courses %}
         {% if page.course == course.name %}
 
           {% for subject in course.subjects %}
           
           <div class="subjectNav">
-            <h2><a href="{{ subject.link }}">{{ subject.name }}</a></h2>
+            <h2><a href="{{ subject.link }}">{{ subject.name | capitalize }}</a></h2>
             {% for chapter in subject.chapters %}
-            <a href="{{ chapter.link }}">{{ chapter.name }}</a>
+            <a href="{{ chapter.link }}">{{ chapter.name | capitalize }}</a>
             {% endfor %}
           </div>
           {% endfor %}

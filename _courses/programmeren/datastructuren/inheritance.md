@@ -10,7 +10,6 @@ tags:
 description:
 ---
 
-# Inheritance
 
 ## Don't Repeat Yourself
 

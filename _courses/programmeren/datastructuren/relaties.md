@@ -10,7 +10,6 @@ tags:
 description: 
 ---
 
-# Relaties Tussen Klassen
 
 ## Relaties
 Wanneer een klasse een variabele bevat, is er een relatie tussen die klasse en het datatype van de variabele. Ook wanneer een klasse een method bevat met een parameter van een datatype, is er een relatie tussen die klasse en het datatype van die parameter. In het voorbeeld hieronder zou je bijvoorbeeld kunnen zeggen dat er een relatie is tussen Leerling en string, want de klasse Leerling heeft een field van het datatype string.
