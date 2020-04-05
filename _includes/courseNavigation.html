@@ -5,9 +5,9 @@
           {% for subject in course.subjects %}
           
           <div class="subjectNav">
-            <h2><a href="{{ subject.link }}">{{ subject.name | capitalize }}</a></h2>
+            <h2><a href="{{site.baseurl}}{{ subject.link }}">{{ subject.name | capitalize }}</a></h2>
             {% for chapter in subject.chapters %}
-            <a href="{{ chapter.link }}">{{ chapter.name | capitalize }}</a>
+              <a href="{{site.baseurl}}{{ chapter.link }}">{{ chapter.name | capitalize }}</a>
             {% endfor %}
           </div>
           {% endfor %}
